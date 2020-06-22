@@ -1,0 +1,165 @@
+
+body {
+    margin: 0px;
+    /*This will centre everything inside that does not have a width set*/
+    text-align: center;
+    /*font-family: 'Tenali Ramakrishna', sans-serif;*/
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+}
+
+a{
+    color: #11999E;
+}
+
+/*It is important to note that all elements have browser default css attached to them*/
+
+/*we are overidiing the default css that is seen through the use of the developer tools window*/
+h1 {
+    /*The auto in the margin automatically centres and tag (top, left, bottom, right)
+    margin: 0 auto 0 auto;*/
+    /*This means top and bottom 0 and left and right auto
+    margin: 0 auto;
+    width: 20%;*/
+    color: #66BFBF;
+    font-size: 4rem;    
+    margin: 50px auto 0 auto;
+    font-family: 'Sacramento', cursive;
+}
+
+hr {
+    color: #EAF6F6;
+    border-style: none;
+    border-top-style: dotted;
+    border-width: 10px;
+    width: 5%;
+    margin: 100px auto 100px auto;
+    
+}
+
+h2 {
+    color: #66BFBF;
+    font-size: 2rem;
+    font-family: 'Merriweather', serif
+}
+
+h3{
+    color: #11999E;
+    font-family: 'Merriweather', serif
+}
+
+
+/***********Class Tags*************/
+
+
+.top_contain {
+    padding-top: 100px;
+    background-color: #f4eeff;
+    width: 100%;
+    position: relative;
+}
+
+.middle-container {
+}
+
+.bottom-container {
+    background-color: #66BFBF;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+.skill-row{
+    width: 50%;
+    /*The margin set to auto will push the row items to the centre*/
+    margin: 100px auto;
+    text-align: left;
+    line-height: 2;   
+}
+
+.QA:hover {
+    text-decoration: underline;
+    background-color:red;
+}
+
+.bottom_cloud {
+    position: absolute;
+    left: 400px;
+    bottom: 300px;
+}
+
+.top_cloud {
+    position: absolute;
+    /*position relative to its parent container (top contain) which is set to relative*/
+    right: 450px;
+    top: 50px;
+
+}
+
+.sub-title {
+    color: #66BFBF;
+    font-weight: normal;
+    font-size: 1.5rem;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.skill-image-1 {
+    width: 25%;
+    /*float allows to wrap text around an image*/
+    float: left;
+    padding-right: 30px;
+}
+
+.skill-image-2 {
+    width: 25%;
+    float: right;
+    padding-left: 30px;
+}
+
+.BUTTON_LQR {
+    background: #3D94F6;
+    background-image: -webkit-linear-gradient(top, #3D94F6, #1E62D0);
+    background-image: -moz-linear-gradient(top, #3D94F6, #1E62D0);
+    background-image: -ms-linear-gradient(top, #3D94F6, #1E62D0);
+    background-image: -o-linear-gradient(top, #3D94F6, #1E62D0);
+    background-image: linear-gradient(to bottom, #3D94F6, #1E62D0);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    color: #FFFFFF;
+    font-family: Open Sans;
+    font-size: 24px;
+    font-weight: 400;
+    padding: 15px;
+    box-shadow: 1px 1px 20px 0px #000000;
+    -webkit-box-shadow: 1px 1px 20px 0px #000000;
+    -moz-box-shadow: 1px 1px 20px 0px #000000;
+    text-shadow: 1px 1px 20px #000000;
+    border: solid #337FED 1px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    margin: 60px auto 90px auto;
+    }
+    
+.BUTTON_LQR:hover {
+    border: solid #337FED 1px;
+    background: #1E62D0;
+    background-image: -webkit-linear-gradient(top, #1E62D0, #3D94F6);
+    background-image: -moz-linear-gradient(top, #1E62D0, #3D94F6);
+    background-image: -ms-linear-gradient(top, #1E62D0, #3D94F6);
+    background-image: -o-linear-gradient(top, #1E62D0, #3D94F6);
+    background-image: linear-gradient(to bottom, #1E62D0, #3D94F6);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    }
+
+    .copy {
+        color: #EAF6F6;;
+    }
+
+    .footer-link {
+        padding: 0 20px 0 20px;
+    }
